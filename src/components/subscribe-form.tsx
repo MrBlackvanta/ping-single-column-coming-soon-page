@@ -71,7 +71,6 @@ export default function SubscribeForm() {
         type="submit"
         className={cn(
           "btn-primary w-full md:w-48 md:text-base",
-          "motion-safe:transition motion-safe:duration-200",
           error && "translate-y-6 md:translate-y-0",
         )}
       >
