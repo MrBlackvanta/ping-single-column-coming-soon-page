@@ -9,7 +9,7 @@ This is a solution to the [Ping single column coming soon page challenge on Fron
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Author](#author)
+- [Author](#author)
 
 ## Overview
 
