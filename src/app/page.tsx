@@ -23,7 +23,7 @@ export default function Page() {
           alt="The Ping product dashboard previewing analytics charts"
           sizes="(min-width: 1024px) 640px, 90vw"
           priority
-          className="mt-10 h-auto w-full"
+          className="mt-18 h-auto w-full"
         />
       </main>
     </>

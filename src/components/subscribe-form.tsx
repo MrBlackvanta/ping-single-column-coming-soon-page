@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/utils/cn";
 import { useId, useState } from "react";
 
 function validateEmail(value: string) {
@@ -49,19 +50,22 @@ export default function SubscribeForm() {
           onChange={handleChange}
           aria-invalid={!!error}
           aria-describedby={error ? errorId : undefined}
-          className={`placeholder:text-very-dark-blue/50 w-full rounded-full border px-8 py-4 text-left text-xs lg:text-base ${
-            error ? "border-light-red" : "border-pale-blue"
-          }`}
+          className={cn(
+            "placeholder:text-very-dark-blue/50 w-full rounded-full border px-8 py-4 text-left text-xs lg:text-base",
+            error ? "border-light-red" : "border-pale-blue",
+          )}
         />
-        {error && (
-          <p
-            id={errorId}
-            role="alert"
-            className="text-light-red mt-2 text-xs italic lg:pl-8 lg:text-left"
-          >
-            {error}
-          </p>
-        )}
+        <p
+          id={errorId}
+          role="alert"
+          className={cn(
+            "text-light-red mt-2 min-h-4 text-xs italic lg:pl-8 lg:text-left",
+            "motion-safe:transition motion-safe:duration-200",
+            error ? "opacity-100" : "translate-y-0.5 opacity-0",
+          )}
+        >
+          {error}
+        </p>
       </div>
       <button type="submit" className="btn-primary w-full lg:w-48 lg:text-base">
         Notify Me

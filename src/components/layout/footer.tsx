@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon, TwitterIcon } from "@/components/icons";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto flex w-full max-w-160 flex-col items-center gap-6 px-7 pt-20 pb-6 text-center lg:px-0">
+    <footer className="mx-auto mt-30 flex w-full max-w-160 flex-col items-center gap-6 px-7 pb-6 text-center lg:px-0">
       <ul className="flex gap-4">
         <li>
           <a
