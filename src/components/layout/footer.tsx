@@ -38,7 +38,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <div className="text-gray space-y-1.5 text-xs">
+      <div className="text-gray-dark space-y-1.5 text-xs">
         <p>&copy; Copyright Ping. All rights reserved.</p>
         <p>
           Challenge by{" "}

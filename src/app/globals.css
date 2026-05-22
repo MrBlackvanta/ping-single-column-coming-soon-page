@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-blue: hsl(223, 87%, 63%);
-  --color-blue-light: hsl(223, 87%, 70%);
+  --color-blue: hsl(223, 87%, 58%);
+  --color-blue-light: hsl(223, 87%, 66%);
 
   --color-pale-blue: hsl(223, 100%, 88%);
   --color-light-red: hsl(354, 100%, 66%);
 
-  --color-gray: hsl(0, 0%, 59%);
+  --color-gray: hsl(0, 0%, 58%);
+  --color-gray-dark: hsl(0, 0%, 46%);
   --color-very-dark-blue: hsl(209, 33%, 12%);
 
   --font-libre-franklin: "Libre Franklin", sans-serif;
