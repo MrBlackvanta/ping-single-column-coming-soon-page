@@ -1,4 +1,4 @@
-import { Footer } from "@/components/layout/footer";
+import Footer from "@/components/layout/footer";
 import type { Metadata, Viewport } from "next";
 import { Libre_Franklin } from "next/font/google";
 import "./globals.css";
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: [{ color: "hsl(0, 0%, 100%)" }],
+  themeColor: "hsl(0, 0%, 100%)",
 };
 
 export default function RootLayout({
@@ -32,11 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${libreFranklin.variable} antialiased`}
-      suppressHydrationWarning
-    >
+    <html lang="en" className={`${libreFranklin.variable} antialiased`}>
       <body className="flex min-h-dvh w-full flex-col">
         {children}
         <Footer />
