@@ -14,7 +14,7 @@
 
 @layer base {
   html {
-    @apply font-libre-franklin text-very-dark-blue;
+    @apply font-libre-franklin text-very-dark-blue font-light;
   }
 
   body {
@@ -32,6 +32,10 @@
 
 @utility footer-link {
   @apply text-very-dark-blue rounded-xs font-semibold;
+}
+
+@utility social-link {
+  @apply text-blue grid size-9 place-items-center rounded-full border border-pale-blue;
 }
 
 @utility shadow-button {

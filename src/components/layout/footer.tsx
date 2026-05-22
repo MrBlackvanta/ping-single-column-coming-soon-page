@@ -1,25 +1,67 @@
+import { FacebookIcon, InstagramIcon, TwitterIcon } from "@/components/icons";
+
 export default function Footer() {
   return (
-    <footer className="text-gray w-full px-9 pb-4 text-center text-xs sm:text-sm">
-      Challenge by{" "}
-      <a
-        href="https://www.frontendmentor.io?ref=challenge"
-        className="footer-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Frontend Mentor
-      </a>
-      . Coded by{" "}
-      <a
-        href="https://www.linkedin.com/in/abdelrhman-vanta/"
-        className="footer-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Abdelrhman Abdelaal
-      </a>
-      .
+    <footer className="mx-auto flex w-full max-w-160 flex-col items-center gap-6 px-7 pt-20 pb-6 text-center">
+      <ul className="flex gap-4">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <FacebookIcon />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
+          >
+            <TwitterIcon />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <InstagramIcon />
+          </a>
+        </li>
+      </ul>
+      <div className="text-gray space-y-1.5 text-xs">
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+        <p>
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            className="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/abdelrhman-vanta/"
+            className="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abdelrhman Abdelaal
+          </a>
+          .
+        </p>
+      </div>
     </footer>
   );
 }
