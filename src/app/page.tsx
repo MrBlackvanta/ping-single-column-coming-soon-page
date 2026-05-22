@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <header className="mx-auto w-full max-w-160 px-7 pt-20 text-center lg:px-0">
+      <header className="mx-auto mt-20 w-full max-w-160 px-7 text-center lg:px-0">
         <LogoIcon className="mx-auto block h-auto w-14 lg:w-22" />
       </header>
       <main className="mx-auto flex w-full max-w-160 flex-1 flex-col items-center px-7 text-center lg:px-0">
