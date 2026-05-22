@@ -9,14 +9,12 @@ export default function Page() {
       <header className="mx-auto mt-20 w-full max-w-160 px-7 text-center md:px-0">
         <LogoIcon className="mx-auto block h-auto w-14 md:w-22" />
       </header>
-      <main className="mx-auto flex w-full max-w-160 flex-1 flex-col items-center px-7 text-center md:px-0">
-        <h1 className="text-gray mt-8 text-2xl leading-snug md:mt-12 md:text-5xl">
+      <main className="mx-auto mt-8 flex w-full max-w-160 flex-1 flex-col items-center px-7 text-center md:mt-12 md:px-0">
+        <h1 className="text-gray mb-3.5 text-2xl leading-snug md:text-5xl">
           We are launching{" "}
           <span className="text-very-dark-blue font-bold">soon!</span>
         </h1>
-        <p className="mt-3.5 text-xs md:mt-4 md:text-xl">
-          Subscribe and get notified
-        </p>
+        <p className="text-xs md:mt-4 md:text-xl">Subscribe and get notified</p>
         <SubscribeForm />
         <Image
           src={illustration}
