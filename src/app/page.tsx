@@ -1,5 +1,6 @@
 import illustration from "@/assets/images/illustration-dashboard.png";
 import { LogoIcon } from "@/components/icons";
+import SubscribeForm from "@/components/subscribe-form";
 import Image from "next/image";
 
 export default function Page() {
@@ -14,7 +15,7 @@ export default function Page() {
           <span className="text-very-dark-blue font-bold">soon!</span>
         </h1>
         <p className="mt-3.5 text-xs">Subscribe and get notified</p>
-        {/* SubscribeForm is added in step 5 */}
+        <SubscribeForm />
         <Image
           src={illustration}
           alt="The Ping product dashboard previewing analytics charts"

@@ -21,7 +21,7 @@ This is a solution to the [Ping single column coming soon page challenge on Fron
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/ping-single-column-coming-soon-page)
-- Live Site URL: [Netlify](https://vanta-ping-single-column-coming-soon-page.netlify.app)
+- Live Site URL: [Netlify](https://vanta-ping-single-column-coming-soon.netlify.app)
 
 ## My process
 
