@@ -10,7 +10,7 @@ export default function Page() {
         <LogoIcon className="mx-auto block h-auto w-14 lg:w-22" />
       </header>
       <main className="mx-auto flex w-full max-w-160 flex-1 flex-col items-center px-7 text-center lg:px-0">
-        <h1 className="text-gray mt-32 text-2xl leading-snug lg:mt-12 lg:text-5xl">
+        <h1 className="text-gray mt-8 text-2xl leading-snug lg:mt-12 lg:text-5xl">
           We are launching{" "}
           <span className="text-very-dark-blue font-bold">soon!</span>
         </h1>
@@ -23,7 +23,7 @@ export default function Page() {
           alt="The Ping product dashboard previewing analytics charts"
           sizes="(min-width: 1024px) 640px, 90vw"
           priority
-          className="mt-20 h-auto w-full"
+          className="mt-10 h-auto w-full"
         />
       </main>
     </>
