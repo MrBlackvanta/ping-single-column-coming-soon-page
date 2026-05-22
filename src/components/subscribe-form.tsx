@@ -32,9 +32,9 @@ export default function SubscribeForm() {
     <form
       noValidate
       onSubmit={handleSubmit}
-      className="mt-8 flex w-full flex-col gap-3"
+      className="mt-8 flex w-full flex-col gap-3 lg:mt-10 lg:flex-row lg:items-start lg:gap-4"
     >
-      <div className="w-full">
+      <div className="w-full lg:flex-1">
         <label htmlFor={emailId} className="sr-only">
           Email address
         </label>
@@ -49,7 +49,7 @@ export default function SubscribeForm() {
           onChange={handleChange}
           aria-invalid={!!error}
           aria-describedby={error ? errorId : undefined}
-          className={`placeholder:text-very-dark-blue/50 w-full rounded-full border px-8 py-4 text-left text-xs ${
+          className={`placeholder:text-very-dark-blue/50 w-full rounded-full border px-8 py-4 text-left text-xs lg:text-base ${
             error ? "border-light-red" : "border-pale-blue"
           }`}
         />
@@ -57,13 +57,13 @@ export default function SubscribeForm() {
           <p
             id={errorId}
             role="alert"
-            className="text-light-red mt-2 text-xs italic"
+            className="text-light-red mt-2 text-xs italic lg:pl-8 lg:text-left"
           >
             {error}
           </p>
         )}
       </div>
-      <button type="submit" className="btn-primary w-full">
+      <button type="submit" className="btn-primary w-full lg:w-48 lg:text-base">
         Notify Me
       </button>
     </form>

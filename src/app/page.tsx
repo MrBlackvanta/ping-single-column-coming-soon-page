@@ -6,15 +6,17 @@ import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <header className="mx-auto w-full max-w-160 px-7 pt-20 text-center">
-        <LogoIcon className="mx-auto block h-auto w-14" />
+      <header className="mx-auto w-full max-w-160 px-7 pt-20 text-center lg:px-0">
+        <LogoIcon className="mx-auto block h-auto w-14 lg:w-22" />
       </header>
-      <main className="mx-auto flex w-full max-w-160 flex-1 flex-col items-center px-7 text-center">
-        <h1 className="text-gray mt-32 text-2xl leading-snug">
+      <main className="mx-auto flex w-full max-w-160 flex-1 flex-col items-center px-7 text-center lg:px-0">
+        <h1 className="text-gray mt-32 text-2xl leading-snug lg:mt-12 lg:text-5xl">
           We are launching{" "}
           <span className="text-very-dark-blue font-bold">soon!</span>
         </h1>
-        <p className="mt-3.5 text-xs">Subscribe and get notified</p>
+        <p className="mt-3.5 text-xs lg:mt-4 lg:text-xl">
+          Subscribe and get notified
+        </p>
         <SubscribeForm />
         <Image
           src={illustration}
