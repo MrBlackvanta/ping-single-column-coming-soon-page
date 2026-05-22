@@ -33,9 +33,9 @@ export default function SubscribeForm() {
     <form
       noValidate
       onSubmit={handleSubmit}
-      className="mt-8 flex w-full flex-col gap-3 lg:mt-10 lg:flex-row lg:items-start lg:gap-4"
+      className="mt-8 flex w-full flex-col gap-3 md:mt-10 md:flex-row md:items-start md:gap-4"
     >
-      <div className="w-full lg:flex-1">
+      <div className="relative w-full md:flex-1">
         <label htmlFor={emailId} className="sr-only">
           Email address
         </label>
@@ -51,7 +51,7 @@ export default function SubscribeForm() {
           aria-invalid={!!error}
           aria-describedby={error ? errorId : undefined}
           className={cn(
-            "placeholder:text-very-dark-blue/50 w-full rounded-full border px-8 py-4 text-left text-xs lg:text-base",
+            "placeholder:text-very-dark-blue/50 w-full rounded-full border px-8 py-4 text-left text-xs md:text-base",
             error ? "border-light-red" : "border-pale-blue",
           )}
         />
@@ -59,7 +59,7 @@ export default function SubscribeForm() {
           id={errorId}
           role="alert"
           className={cn(
-            "text-light-red mt-2 min-h-4 text-xs italic lg:pl-8 lg:text-left",
+            "text-light-red absolute inset-x-0 top-full mt-2 text-xs italic md:pl-8 md:text-left",
             "motion-safe:transition motion-safe:duration-200",
             error ? "opacity-100" : "translate-y-0.5 opacity-0",
           )}
@@ -67,7 +67,14 @@ export default function SubscribeForm() {
           {error}
         </p>
       </div>
-      <button type="submit" className="btn-primary w-full lg:w-48 lg:text-base">
+      <button
+        type="submit"
+        className={cn(
+          "btn-primary w-full md:w-48 md:text-base",
+          "motion-safe:transition motion-safe:duration-200",
+          error && "translate-y-6 md:translate-y-0",
+        )}
+      >
         Notify Me
       </button>
     </form>
