@@ -20,7 +20,8 @@ This is a solution to the [Ping single column coming soon page challenge on Fron
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/ping-single-column-coming-soon-page)
-- Live Site URL: [Netlify](https://vanta-ping-single-column-coming-soon.netlify.app)
+- Live Site URL: [Cloudflare](https://ping-single-column-coming-soon-page.abdelrhman-ahmed8881.workers.dev)
+- Mirror: [Netlify](https://vanta-ping-single-column-coming-soon.netlify.app)
 
 ## My process
 
