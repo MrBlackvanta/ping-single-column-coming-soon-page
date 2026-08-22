@@ -10,13 +10,43 @@ const libreFranklin = Libre_Franklin({
   display: "swap",
 });
 
+const SITE_URL =
+  "https://ping-single-column-coming-soon-page.abdelrhman-ahmed8881.workers.dev";
+
+const title = "Ping | Launching soon";
+const description =
+  "Ping is launching soon. Subscribe with your email address and we will notify you the moment it goes live.";
+
+const shareImage = {
+  url: "/opengraph-image.jpg",
+  width: 1200,
+  height: 630,
+  alt: "Ping, launching soon, beside a preview of its dashboard.",
+};
+
 export const metadata: Metadata = {
-  title: "Ping single column coming soon page",
-  description:
-    "Frontend Mentor Ping single column coming soon page challenge built with Next.js and TypeScript.",
+  metadataBase: new URL(SITE_URL),
+  title,
+  description,
+  alternates: { canonical: "/" },
   icons: {
     icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
     apple: [{ url: "/apple-icon.png" }],
+  },
+  openGraph: {
+    title,
+    description,
+    url: "/",
+    siteName: "Ping",
+    locale: "en_US",
+    type: "website",
+    images: [shareImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: [shareImage],
   },
 };
 
