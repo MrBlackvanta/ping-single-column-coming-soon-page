@@ -41,16 +41,7 @@ export default function Footer() {
       <div className="text-gray-dark space-y-1.5 text-xs">
         <p>&copy; Copyright Ping. All rights reserved.</p>
         <p>
-          Challenge by{" "}
-          <a
-            href="https://www.frontendmentor.io?ref=challenge"
-            className="footer-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Frontend Mentor
-          </a>
-          . Coded by{" "}
+          Coded by{" "}
           <a
             href="https://www.linkedin.com/in/abdelrhman-vanta/"
             className="footer-link"
