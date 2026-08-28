@@ -1,38 +1,26 @@
-# Frontend Mentor - Ping single column coming soon page solution
+# Ping coming soon page
 
-This is a solution to the [Ping single column coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-
-## Overview
-
-### Screenshot
+My solution to the [Ping single column coming soon page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
+challenge on Frontend Mentor.
 
 ![](./screenshot.webp)
 
-### Links
+- Live: https://ping-single-column-coming-soon-page.abdelrhman-ahmed8881.workers.dev
+- Code: https://github.com/MrBlackvanta/ping-single-column-coming-soon-page
 
-- Solution URL: [GitHub](https://github.com/MrBlackvanta/ping-single-column-coming-soon-page)
-- Live Site URL: [Cloudflare](https://ping-single-column-coming-soon-page.abdelrhman-ahmed8881.workers.dev)
+## Built with
 
-## My process
+- Next.js 16
+- React 19 and TypeScript
+- Tailwind CSS v4
 
-### Built with
+## Notes
 
-- [Next.js 16](https://nextjs.org/)
-- [React 19](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS v4](https://tailwindcss.com/)
+One page, one form. The email field validates on submit and the error is tied to the
+input with `aria-describedby` so it's announced rather than just shown.
 
 ## Author
 
-- UpWork - [Abdelrhman Abdelaal](https://www.upwork.com/freelancers/mrblackvanta)
-- Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
-- LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)
+- [LinkedIn](https://www.linkedin.com/in/abdelrhman-vanta/)
+- [UpWork](https://www.upwork.com/freelancers/mrblackvanta)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/MrBlackvanta)
