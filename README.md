@@ -10,14 +10,10 @@ challenge on Frontend Mentor.
 
 ## Built with
 
-- Next.js 16
-- React 19 and TypeScript
-- Tailwind CSS v4
-
-## Notes
-
-One page, one form. The email field validates on submit and the error is tied to the
-input with `aria-describedby` so it's announced rather than just shown.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
 ## Author
 
