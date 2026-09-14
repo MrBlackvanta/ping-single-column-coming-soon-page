@@ -1,6 +1,7 @@
 import Footer from "@/components/layout/footer";
 import type { Metadata, Viewport } from "next";
 import { Libre_Franklin } from "next/font/google";
+import { SITE_URL } from "@/app/site";
 import "./globals.css";
 
 const libreFranklin = Libre_Franklin({
@@ -9,9 +10,6 @@ const libreFranklin = Libre_Franklin({
   subsets: ["latin"],
   display: "swap",
 });
-
-const SITE_URL =
-  "https://ping-single-column-coming-soon-page.abdelrhman-ahmed8881.workers.dev";
 
 const title = "Ping | Launching soon";
 const description =
